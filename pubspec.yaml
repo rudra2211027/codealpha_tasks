@@ -1,0 +1,62 @@
+name: myfitness
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for the application
+version: 1.0.0+1
+
+# Environment
+environment:
+  sdk: ^3.5.3
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons font for iOS style icons
+  cupertino_icons: ^1.0.8
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for good coding practices
+  flutter_lints: ^4.0.0
+
+# Flutter-specific configuration
+flutter:
+  # Include Material Icons font
+  uses-material-design: true
+
+  # Custom fonts
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 900
+
+  # Assets
+  assets:
+    - assets/images/
+  #  - images/a_dot_ham.jpeg
+
+  # For information on the generic Dart part of this file, see the
+  # following page: https://dart.dev/tools/pub/pubspec
+
+  # The following section is specific to Flutter packages.
+  # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+  # Read more about iOS versioning at https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+  # Read more about Windows versioning at https://docs.microsoft.com/en-us/windows/win32/sysinfo/versions-and-compatibility
